@@ -1,0 +1,7 @@
+packages:
+  # include packages in subfolders (change as required)
+  
+  - "apps/*"
+  - "microservices/*"
+  # exclude packages that are inside test directories
+  - '!**/test/**'
